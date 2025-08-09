@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* bOdy syling */
+body{
+    margin: 15px;
+    background-color: rgba(253, 248, 248, 0.938);
+}
+
+/* Logo header and meter bar styles */
+.header-meter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-meter input{
+height: 20px;
+}
+
+h1{
+    color: blue;
+}
+
+div a{
+    display: flex;
+    justify-content: center;
+    color: rgb(25, 35, 177);
+    border-top: 2px solid black;
+    padding-top: 20px ;
+}
+
+/* Confidential page top border line style */
+
+h3, .Paragraph-top{
+     border-top: 2px solid black;
+    padding: 15px 0;
+}
+
+p{
+    padding: 10px 0;
+}
+
+/* Survey Purpose page font boldness style  */
+.paragraphs{
+    font-weight: bold;
+}
+
+.Agree-Age{
+    border: 1px solid #000;
+    padding: 0 2px;
+}
+
+span{
+    color: red;
+}
+
+/* State/city paragraph style */
+#city-paragraph{
+    color: #000;
+    display: flex;
+}
+
+/* List items styling */
+ol{
+    padding-left: 20px;
+}
+
+/* Radio button styles */
+.Yes-No, .radio-btn, .check-box{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    accent-color: blue;
+}
+
+ .radio-btn input, .check-box input {
+width: 18px;
+height: 18px;
+}
+
+.radio-btn span{
+    color: blue;
+}
+
+/* Percentage Page styles */
+
+.percentage-use{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-weight: normal;
+    } 
+
+.percentage-use label {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 500px;
+    padding-top: 10px;  
+}
+
+.percentage-use input{
+    width: 120px;
+}
+
+#csh{
+height: 50px;
+margin-left: 800px;
+}
+
+.percentage-use p {
+    display: flex;
+    border-top: 2px solid rgb(182, 178, 178);
+    border-bottom: 2px solid rgb(182, 178, 178);
+    margin: 8px;
+    width: 950px;
+    justify-content: space-between;
+}
+
+#percent{
+    color: #000;
+}
+
+
+
+
+/* Debit Card issuer check box styling */
+.check-box{
+border: 2px solid rgb(221, 213, 213);
+margin: 10px 0;
+width: 680px;
+}
+
+#chck-input-specify{
+        border-bottom: 2px solid  rgb(221, 213, 213);
+        border-top: 2px solid  rgb(221, 213, 213);
+        padding: 10px;
+        margin: 80px 0 130px 0;
+}
+
+.paragraph-clear a{
+    border: none;
+    margin-left: -105px;
+    margin-top: -30px;
+}
+
+
+/* Bank option selection styles of bankers page*/
+.select-bnk select{
+    width: 450px;
+}
+/* Table styling */
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th{
+    width: 100px;
+    padding: 8px;
+}
+
+td input{
+    height: 18px;
+    width: 20px;  
+    margin-top: 2px;
+}
+
+.row-discb{
+    text-align: left;
+    width: 150px;
+    padding: 4px;
+}
+
+/* Expirience-interest Table Styles */
+.row-discb1{
+    text-align: left;
+    width: 650px;
+    padding: 4px;
+    font-weight: normal;
+}
+
+div th{
+     width: 150px;
+    padding: 8px;
+}
+
+/* Submission page Text Areea Style */
+textarea{
+    width: 500px;
+    height: 150px;
+}
+
+/* Button styles */
+button{
+    margin-left: 50%; 
+    background-color: blue;
+    color: #fff;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+button:hover{
+    background-color: #bee2f1;
+    color:  blue;
+    
+}
+
+
+ footer{
+     text-align: center;
+     padding-top: 5px;
+     border-top: 2px solid black;   
+}
+
